@@ -1,0 +1,22 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.execution-date {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.execution-duration {
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--color-text-muted);
+}
+
+.execution-list-empty {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
