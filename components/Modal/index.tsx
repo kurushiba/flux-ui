@@ -3,7 +3,7 @@ import './index.css';
 export default function Modal() {
   return (
     <div className="modal-overlay" onClick={() => {}}>
-      <div className="modal">
+      <div className="modal" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <h2 className="modal-title">Add Credential</h2>
 
