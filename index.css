@@ -376,6 +376,10 @@ select.form-control,
   color: var(--color-warning);
   animation: pulse 1.6s ease-in-out infinite;
 }
+.badge-gemini {
+  background: rgba(167, 139, 250, 0.15);
+  color: #a78bfa;
+}
 
 /* ===== モーダル ===== */
 .modal-overlay {
