@@ -47,7 +47,7 @@ export default function Modal() {
                 Cancel
               </button>
               <button type="submit" className="btn-primary">
-                Add Credential
+                Save Credential
               </button>
             </div>
           </form>
