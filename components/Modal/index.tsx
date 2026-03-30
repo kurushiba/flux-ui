@@ -25,7 +25,7 @@ export default function Modal() {
           <form onSubmit={() => {}}>
             <div className="form-group">
               <label className="form-label">Name</label>
-              <input className="form-input" type="text" required />
+              <input className="form-input" type="text" />
             </div>
 
             <div className="form-group">
