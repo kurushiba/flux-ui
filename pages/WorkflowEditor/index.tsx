@@ -13,14 +13,12 @@ import EditorHeader from './EditorHeader';
 import NodePalette from './NodePalette';
 import NodeConfigPanel from './NodeConfigPanel';
 
-function WorkflowEditorContent() {
+export default function WorkflowEditor() {
   return (
     <div className="editor-layout">
-
       <EditorHeader />
 
       <div className="editor-body">
-
         <NodePalette />
 
         <div className="react-flow-wrapper">
@@ -39,12 +37,7 @@ function WorkflowEditorContent() {
         </div>
 
         <NodeConfigPanel />
-
       </div>
     </div>
   );
-}
-
-export default function WorkflowEditor() {
-  return <WorkflowEditorContent />;
 }
