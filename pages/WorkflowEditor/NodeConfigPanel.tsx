@@ -4,22 +4,16 @@ export default function NodeConfigPanel() {
 
   return (
     <div className="node-config-panel visible">
-
       <>
         <div className="config-panel-header">
           <h3 className="config-panel-title">HTTP Request</h3>
           <div style={{ display: 'flex', gap: 6 }}>
-            <button className="btn-danger btn-sm">
-              Delete
-            </button>
-            <button className="btn-ghost btn-sm">
-              ✕
-            </button>
+            <button className="btn-danger btn-sm">Delete</button>
+            <button className="btn-ghost btn-sm">✕</button>
           </div>
         </div>
 
         <div className="config-panel-body">
-
           <div className="form-group">
             <label className="form-label">Label</label>
             <input
@@ -76,9 +70,7 @@ export default function NodeConfigPanel() {
             <div className="form-group">
               <label className="form-label">Model</label>
               <select className="form-select" defaultValue="gpt-4o">
-                <option value="gpt-4o">gpt-4o</option>
-                <option value="gpt-4o-mini">gpt-4o-mini</option>
-                <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+                <option value="gpt-5.4-nano">gpt-5.4-nano</option>
               </select>
             </div>
 
@@ -117,10 +109,8 @@ export default function NodeConfigPanel() {
             </div>
           </>
           */}
-
         </div>
       </>
-
     </div>
   );
 }
